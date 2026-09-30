@@ -13,7 +13,7 @@ import './styles/global.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/animation-media">
       <div className="app-container">
         <Sidebar />
         <main className="main-content">

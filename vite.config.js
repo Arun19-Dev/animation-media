@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Using relative paths so it can be deployed to any subfolder (like GitHub pages)
+  base: '/animation-media/', // Set to repository name for GitHub Pages
 })
