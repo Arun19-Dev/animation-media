@@ -1,0 +1,87 @@
+.dashboard-header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.dashboard-header .subtitle {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.roadmap {
+  background: linear-gradient(180deg, var(--bg-card) 0%, rgba(19, 28, 45, 0.5) 100%);
+}
+
+.roadmap-steps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 120px;
+  text-align: center;
+}
+
+.step-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--bg-dark);
+  border: 2px solid var(--accent-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--accent-cyan);
+  box-shadow: 0 0 15px rgba(14, 165, 233, 0.2);
+}
+
+.step span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.step-line {
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  min-width: 30px;
+  margin-top: -25px;
+}
+
+.modules-grid {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.module-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.module-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.module-meta {
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
